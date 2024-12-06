@@ -1,12 +1,13 @@
 import { Route, BrowserRouter, Routes } from "react-router-dom";
+import Tela from "../pages/tela";
 
 export const AppRoutes = () => {
   return (
     <BrowserRouter>
       <Routes>
         {/* Rota 1 */}
-        <Route path="/" element={<h1>olá</h1>} />
-        <Route path="/caminho2" element={<h2>olá denovo</h2>} />
+        <Route path="/" element={<Tela/>} />
+      
       </Routes>
     </BrowserRouter>
   );
